@@ -1,0 +1,19 @@
+{"timestamp":"2026-02-13T14:44:10.968Z","type":"START","message":"🤖 自主化Agent系统启动","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:44:10.970Z","type":"START","message":"所有循环已启动","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:31.457Z","type":"LEARN","message":"开始自主学习扫描","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:31.459Z","type":"LEARN","message":"🔍 扫描多平台技能...","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.034Z","type":"LEARN","message":"   去重后 26 个唯一技能","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.035Z","type":"LEARN","message":"   评估后 23 个候选技能","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.035Z","type":"LEARN","message":"   判断需要 7 个技能","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.036Z","type":"LEARN","message":"   ⚠️ 无安装链接，跳过: clawsouls","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.036Z","type":"LEARN","message":"   ⚠️ 无安装链接，跳过: agentic-browser-0-1-2","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.036Z","type":"LEARN","message":"   ⚠️ 无安装链接，跳过: sleep-tracker","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.037Z","type":"LEARN","message":"   ⚠️ 无安装链接，跳过: neural-memory","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.037Z","type":"LEARN","message":"   ⚠️ 无安装链接，跳过: nadmail","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"📋 我需要的技能:","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"   1. [80%] ClawSouls","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"   2. [80%] Agentic Browser 0.1.2","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"   3. [65%] Sleep Tracker","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"   4. [65%] Neural Memory","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"   5. [65%] Nadmail","data":{},"sessionId":"orchestrator"}
+{"timestamp":"2026-02-13T14:49:36.039Z","type":"LEARN","message":"学习完成: 自动安装了 0 个技能","data":{},"sessionId":"orchestrator"}

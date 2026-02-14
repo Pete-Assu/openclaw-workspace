@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-13T23:53:20.672Z",
+  "status": "healthy",
+  "checks": {
+    "openClaw": true,
+    "npm": true,
+    "skills": true,
+    "connectivity": true,
+    "disk": true
+  },
+  "issues": [],
+  "fixes": []
+}

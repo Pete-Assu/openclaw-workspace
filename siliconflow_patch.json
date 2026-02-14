@@ -1,0 +1,23 @@
+{
+  "siliconflow": {
+    "baseUrl": "https://api.siliconflow.cn/v1",
+    "apiKey": "siliconflow-api-key",
+    "api": "openai-completions",
+    "models": [
+      {
+        "id": "deepseek-ai/DeepSeek-V2.5",
+        "name": "DeepSeek V2.5",
+        "reasoning": false,
+        "input": ["text"],
+        "cost": {
+          "input": 0.5,
+          "output": 1.0,
+          "cacheRead": 0.1,
+          "cacheWrite": 0.2
+        },
+        "contextWindow": 128000,
+        "maxTokens": 8192
+      }
+    ]
+  }
+}

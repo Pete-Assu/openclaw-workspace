@@ -1,0 +1,52 @@
+# Silicon Flow API 配置文件
+# 用于 OpenClaw 集成
+
+{
+  "provider": "siliconflow",
+  "name": "Silicon Flow",
+  "endpoint": "https://siliconflow.cn/api/chat",
+  "api_key_env": "SILICONFLOW_API_KEY",
+  "models": {
+    "default": "deepseek-ai/DeepSeek-V2.5",
+    "chat": "deepseek-ai/DeepSeek-V2.5",
+    "coding": "bigcode/starcoder2-15b",
+    "embedding": "BAAI/bge-large-zh-v1.5"
+  },
+  "settings": {
+    "temperature": {
+      "default": 0.7,
+      "range": [0, 2],
+      "step": 0.1
+    },
+    "max_tokens": {
+      "default": 1000,
+      "max": 4000
+    },
+    "timeout": 30,
+    "retry": 3
+  },
+  "features": {
+    "streaming": true,
+    "function_calling": false,
+    "vision": false
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1K tokens",
+    "models": {
+      "deepseek-ai/DeepSeek-V2.5": {
+        "input": 0.14,
+        "output": 0.28
+      },
+      "Qwen/Qwen2.5-72B-Instruct": {
+        "input": 0.35,
+        "output": 0.70
+      }
+    }
+  },
+  "status": {
+    "last_check": "2026-02-12T13:16:00+08:00",
+    "endpoint_available": true,
+    "authentication_required": true
+  }
+}

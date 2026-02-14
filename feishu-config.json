@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a908b9cf35f8dbc9",
+      "appSecret": "LXfbsIcqaMTntrIGWgj4ed7PKWNXZyfz",
+      "encryptKey": "YOUR_ENCRYPT_KEY",
+      "verificationToken": "YOUR_VERIFICATION_TOKEN",
+      "webhookUrl": "/feishu/webhook",
+      "port": 3000,
+      "host": "0.0.0.0"
+    }
+  }
+}

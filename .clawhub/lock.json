@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1771015749375
+    },
+    "n8n-workflow-automation": {
+      "version": "1.0.0",
+      "installedAt": 1771015752773
+    },
+    "productivity": {
+      "version": "1.0.0",
+      "installedAt": 1771015756887
+    },
+    "personal-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1771015780984
+    }
+  }
+}

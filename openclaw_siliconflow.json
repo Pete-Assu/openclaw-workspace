@@ -1,0 +1,24 @@
+﻿{
+    "siliconflow":  {
+                        "api_key_env":  "SILICONFLOW_API_KEY",
+                        "settings":  {
+                                         "max_tokens":  4000,
+                                         "retry":  3,
+                                         "timeout":  30,
+                                         "temperature":  0.7
+                                     },
+                        "models":  {
+                                       "chat":  "deepseek-ai/DeepSeek-V2.5",
+                                       "default":  "deepseek-ai/DeepSeek-V2.5",
+                                       "coding":  "deepseek-ai/DeepSeek-V3"
+                                   },
+                        "test":  {
+                                     "status":  "passed",
+                                     "timestamp":  "2026-02-12 13:23:31",
+                                     "model":  "deepseek-ai/DeepSeek-V2.5",
+                                     "response_time":  "fast"
+                                 },
+                        "endpoint":  "https://api.siliconflow.cn/v1/chat/completions",
+                        "enabled":  true
+                    }
+}

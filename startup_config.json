@@ -1,0 +1,11 @@
+﻿{
+    "forceUpdate":  false,
+    "versionCheck":  true,
+    "schedule":  "on_startup",
+    "notification":  true,
+    "restartOnUpdate":  true,
+    "checkInterval":  "daily",
+    "logLevel":  "info",
+    "cacheCleanup":  true,
+    "autoUpdate":  true
+}

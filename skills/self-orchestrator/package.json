@@ -1,0 +1,29 @@
+{
+  "name": "self-orchestrator",
+  "version": "1.0.0",
+  "description": "整合8个自主化技能的完整自动化系统：自主学习 + 主动代理 + 自我进化 + 自我修复 + 自我改进 + 任务管理 + 编程代理 + 质量保证",
+  "author": "OpenClaw Agent",
+  "keywords": [
+    "automation",
+    "self-improving",
+    "autonomous",
+    "agent",
+    "orchestration"
+  ],
+  "moltbot": {
+    "emoji": "🎯",
+    "category": "automation",
+    "requires": {
+      "anySkills": [
+        "autonomous-learning",
+        "proactive-agent",
+        "self-evolving",
+        "self-healing",
+        "self-improvement",
+        "beads-agent",
+        "coding-agent",
+        "feedback-loop"
+      ]
+    }
+  }
+}

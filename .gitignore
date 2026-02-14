@@ -1,0 +1,48 @@
+# 依赖和缓存
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 日志
+*.log
+auto_*.log
+rss_*.log
+image_*.log
+startup*.log
+
+# 配置备份
+*.backup
+*.bak
+*.orig
+
+# 临时文件
+tmp/
+temp/
+.temp/
+
+# 生成的文件
+generated_images/
+upload_speech.json
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# JSON 数据
+rss_feed.json
+learning_data.json
+
+# OpenClaw 特定
+.clawhub/cache/
+cron/

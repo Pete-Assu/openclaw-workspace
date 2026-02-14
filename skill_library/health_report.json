@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-02-10T03:15:09.111988",
+  "health_score": 46.0,
+  "grade": "C (需改进)",
+  "success_rate": 1.0,
+  "total_tasks": 6,
+  "auto_fixes": 20,
+  "errors": 17,
+  "modules": {
+    "proactive": "active",
+    "tavily": "active",
+    "self_evolving": "active",
+    "transcribe": "active"
+  },
+  "target": {
+    "health_score": 100,
+    "integrations": "100%",
+    "status": "in_progress"
+  }
+}

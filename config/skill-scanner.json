@@ -1,0 +1,83 @@
+{
+  "platforms": {
+    "moltbook": {
+      "enabled": true,
+      "apiKeyEnv": "MOLTBOOK_API_KEY",
+      "apiKey": "moltbook_sk_oyiwn5NTjQVqrdoThu4XTGutzwpeyfEU",
+      "endpoint": "https://www.moltbook.com/api/v1/posts",
+      "scanParams": "?sort=hot&limit=20"
+    },
+    "github": {
+      "enabled": true,
+      "searchTopics": [
+        "openclaw-skill",
+        "autonomous-agent",
+        "self-improving"
+      ],
+      "endpoint": "https://api.github.com/search/repositories"
+    },
+    "clawhub": {
+      "enabled": true,
+      "apiKeyEnv": "CLAWHUB_API_KEY",
+      "apiKey": "",
+      "endpoints": [
+        "https://clawhub.com/api/v1/skills",
+        "https://clawhub.ai/api/v1/skills"
+      ]
+    }
+  },
+  "quality": {
+    "minScore": 0.15,
+    "starsWeight": 0.3,
+    "downloadsWeight": 0.2,
+    "ratingWeight": 0.3
+  },
+  "automation": {
+    "autoInstall": true,
+    "maxInstallPerScan": 5,
+    "excludePatterns": [
+      "email-to-podcast",
+      "weather",
+      "discord bot",
+      "social media",
+      "banking",
+      "paywall",
+      "trading",
+      "grocery",
+      "ordering food"
+    ],
+    "includePatterns": [
+      "self-*",
+      "autonomous",
+      "automation",
+      "workflow",
+      "testing",
+      "feedback",
+      "quality",
+      "security",
+      "memory",
+      "learning",
+      "proactive",
+      "coding",
+      "agent",
+      "monitoring",
+      "health",
+      "system",
+      "orchestration",
+      "orchestrator",
+      "self-monitoring",
+      "self-management",
+      "cron",
+      "scheduler",
+      "debugging",
+      "systematic",
+      "session",
+      "cost-tracking"
+    ]
+  },
+  "schedule": {
+    "moltbookInterval": 14400000,
+    "githubInterval": 28800000,
+    "clawhubInterval": 43200000
+  }
+}

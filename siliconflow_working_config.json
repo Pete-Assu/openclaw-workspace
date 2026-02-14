@@ -1,0 +1,8 @@
+﻿{
+    "test_time":  "2026-02-12 13:23:15",
+    "provider":  "siliconflow",
+    "api_key":  "sk-asvjcddwvpqdacgvfsxkoyeucbegqlmidnpqpthvrzmmdiqw",
+    "model":  "deepseek-ai/DeepSeek-V2.5",
+    "endpoint":  "https://api.siliconflow.cn/v1/chat/completions",
+    "status":  "working"
+}
