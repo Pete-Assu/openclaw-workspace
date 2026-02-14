@@ -46,3 +46,6 @@ learning_data.json
 # OpenClaw 特定
 .clawhub/cache/
 cron/
+
+# 嵌套 Git 仓库（不追踪）
+skillmint/.git/
