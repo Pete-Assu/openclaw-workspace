@@ -48,4 +48,5 @@ learning_data.json
 cron/
 
 # 嵌套 Git 仓库（不追踪）
+skillmint/
 skillmint/.git/
